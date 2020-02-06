@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Expense app</title>
+</head>
+
+<body>
+    <div class="app-details" >
+    <a href="https://github.com/rutikwankhade/Simple-expense-app">View on Github</a>
+    <a class="ml-4" href="https://rutik.netlify.com/">Rutik Wankhade</a>
+    <p class="mt-3">Don’t tell me where your priorities are.<br> Show me where you spend your money and <br>I’ll tell you what they are. <br><br>–James W. Frick</p>
+    <img class="illus" src="images/money-illustration.jpg">
+    </div>
+    <div class="main-content">
+        <div class="left-content">
+             <div class="heading">
+                 <img class="logo" src="https://image.flaticon.com/icons/svg/1907/1907692.svg">Expense app
+             </div>
+             <div class=" mt-4 mb-4 h3 text-center" id="headingTotal"></div>
+             <div class="inputfield">
+                <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">&#8377</span>
+                </div>
+                <input type="text" id="inputAmount" class="form-control" placeholder="Amount spent"
+                    aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            
+                <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" id="inputDesc" class="form-control" placeholder="Description" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                </div>
+            <button type="button" class="btn mb-3 btn-primary btn-block" id="addExpenseBtn">Add</button>
+            </div>
+        </div>
+
+       <div class="right-content">
+            <div class="list">
+            <ul class="list-group list" id="expenseTable"> </ul>
+            </div>
+       </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>

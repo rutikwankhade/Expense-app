@@ -1,0 +1,85 @@
+.main-content{
+    max-width:800px;
+    height:500px;
+    background: url("images/background.jpg");
+    margin-top:50px;
+    background-color: #f2f2f2;
+    padding:25px;
+}
+.left-content{
+    float:left;
+    margin:20px;
+    background-color: #ffffff;
+}
+.right-content{
+    float:right;
+    margin-bottom:20px;
+    
+    
+}
+.list{
+    height:380px;
+margin-top:20px;
+    overflow-y: scroll;
+}
+.list::-webkit-scrollbar {
+    background: transparent;
+    }
+.inputfield{
+    margin:50px;
+}
+
+
+
+.heading {
+            
+            color: white;
+            background-color: #4747d1;
+            font-size: 23px;
+            font-family: helvetica;
+            padding: 10px 10px 10px 20px;
+            border-radius:5px;
+            width:350px;
+        }
+
+        .total {
+            margin-top: 20px;
+            text-align: center;
+            color: #333399;
+            font-size: 30px;
+            font-family: segoe ui;
+        }
+        .logo {
+            height: 60px;
+            width: 60px;
+        }
+        
+        .illus{
+            height:300px;
+            width:500px;
+            float:right;
+            z-index:-2;
+        
+        margin-right:20px;
+        }
+
+.app-details{
+    margin-top:70px;
+    float:right;
+}
+
+
+
+       /* media queries for responsive */
+
+
+        @media screen and (max-width: 500px) {
+            .app-details{
+                display:none;
+                margin-top:0px;
+            }
+            .main-content{background:none;
+            padding:0px;
+        margin-top:0px;}
+        .left-content{margin-top:0px;}
+        }    
