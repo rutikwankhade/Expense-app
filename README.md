@@ -7,4 +7,4 @@ A simple expense app using bootstrap and Vannila Javascript where you can manage
 - Add your daily expenses.
 - Delete expenseItems from the list."# Expense-app" 
 
-See [live Demo](https://expense-app2.netlify.com/) here
+See [live Demo](https://app-expense.netlify.com/) here

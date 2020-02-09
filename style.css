@@ -14,12 +14,10 @@
 .right-content{
     float:right;
     margin-bottom:20px;
-    
-    
-}
+    }
 .list{
     height:380px;
-margin-top:20px;
+    margin-top:20px;
     overflow-y: scroll;
 }
 .list::-webkit-scrollbar {
@@ -28,11 +26,7 @@ margin-top:20px;
 .inputfield{
     margin:50px;
 }
-
-
-
 .heading {
-            
             color: white;
             background-color: #4747d1;
             font-size: 23px;
@@ -73,13 +67,16 @@ margin-top:20px;
        /* media queries for responsive */
 
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 600px) {
             .app-details{
                 display:none;
-                margin-top:0px;
+                margin:0px;
             }
             .main-content{background:none;
             padding:0px;
-        margin-top:0px;}
-        .left-content{margin-top:0px;}
+        margin:0px;}
+        .left-content{margin:0px;}
+        .right-content{margin:auto;}
+
+        
         }    
