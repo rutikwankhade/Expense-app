@@ -76,7 +76,9 @@
             padding:0px;
         margin:0px;}
         .left-content{margin:0px;}
-        .right-content{margin:auto;}
+        .right-content{
+            float:left;
+            margin:20px;}
 
         
         }    
